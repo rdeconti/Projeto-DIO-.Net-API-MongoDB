@@ -4,9 +4,9 @@
 
 # Projeto Digital Innovation One MRV .Net Developer
 # API Mongo DB
-Este projeto foi proposto pela Digital Innovation One - Link do código original: https://github.com/gabrielfbarros/dotnet-mongo
-Professor: Gabriel Faraday
-Aula: https://web.digitalinnovation.one/project/construindo-um-projeto-de-uma-apinet-integrada-ao-mongodb/learning/b3d35e6f-b202-4c88-a256-2c17e0836061?back=/track/mrv-net-developer&bootcamp_id=2aa1519c-08ce-4f37-873f-368794f735d2
+- Este projeto foi proposto pela Digital Innovation One - Link do código original: https://github.com/gabrielfbarros/dotnet-mongo
+- Professor: Gabriel Faraday
+- Aula: https://web.digitalinnovation.one/project/construindo-um-projeto-de-uma-apinet-integrada-ao-mongodb/learning/b3d35e6f-b202-4c88-a256-2c17e0836061?back=/track/mrv-net-developer&bootcamp_id=2aa1519c-08ce-4f37-873f-368794f735d2
 
 # Descrição
 Construiremos um projeto de uma API em .NET Core integrada a um cluster MongoDB, que também criaremos em tempo real no service cloud Mongo Atlas. Vamos repassar brevemente os conceitos básicos de front-end, back-end, bases de dados, NoSQL e MongoDB para fixar o entendimento e sua aplicabilidade.
