@@ -39,11 +39,41 @@ https://docs.mongodb.com/manual/
 https://docs.mongodb.com/ecosystem/drivers/csharp/
 https://docs.atlas.mongodb.com/
 
-# Melhorias implementadas
-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+# Detalhes obtidos nas aulas
+- Cadastramento realizado no Mongo Atlas DB
+- Escolhido o Cluster FREE
+- Escolhido o Google Cloud Plataform
+- Criado o Database com Senha
+- Criado o Network IP address
+- Criado a conection string
+- A aplicação vai tratar dados referentes a pandemia ocasionada pelo coronavirus
+- Foram criados o modelo de dados (collections: infectados)
+- Adicionou package com: dotnet add package MongoDB.Driver
+- ICOnfiguration é uma interface .NET
+- Trabalhou com Mapping Classes (fica mais claro para quem lê o código)
+- Para cada ENDPOINTS tem uma view model (DTO)
+- Tem o banco, tem as classes: tem que fazer o meio de campo que é a controller (classe controller deve ter "controller" no nome)
+- Anotações [ApiController]
+- Criou o ENDPOINT POST
+- Criou o ENDPOINT GET
+- A questão da injeção de dependência realizado com o "Data.MongoDB mongoDB" = desacoplamento de código e facilidade de codificação - controlado pelo startup.cs
+- Utilizou POSTMAN para verificar a API 
+- Pode executar a aplicação com linha de comando: dotnet run ou com F5 para debugar
+- No Postman indica no create: http://localhost:5000/infectado
+- No Postman executa um POST com estes dados (no Body, Tipo Json)
+{
+	"dataNascimento": "1990-03-01",
+	"sexo": "M",
+	"latitude": -23.5630994,
+	"longitude": -46.6565712
+}
 
-# Melhorias futuras
-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+- Executei vários adds no Postman executa um POST com estes dados (no Body, Tipo Json)
+
+
+
+
+- Utilizou o Visual Code Studio com as extensões: C# e C# Extensions
 
 # Testes executados (utilizando IDE Visual Studio 2019)
 
