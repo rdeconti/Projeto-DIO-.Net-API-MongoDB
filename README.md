@@ -28,18 +28,22 @@ https://localhost:5001/infectado
 OBS: é preciso ter configurar o acesso ao banco no appsettings.
 
 Links Uteis:
+
 - .net core - https://dotnet.microsoft.com/download
 - visual code - https://code.visualstudio.com/download
 - postman - https://www.postman.com/downloads/
 - mongo atlas - https://www.mongodb.com/cloud/atlas/register
+
 -----------------------------------------------
 Referências:
-https://docs.mongodb.com/
-https://docs.mongodb.com/manual/
-https://docs.mongodb.com/ecosystem/drivers/csharp/
-https://docs.atlas.mongodb.com/
+
+- https://docs.mongodb.com/
+- https://docs.mongodb.com/manual/
+- https://docs.mongodb.com/ecosystem/drivers/csharp/
+- https://docs.atlas.mongodb.com/
 
 # Detalhes obtidos nas aulas
+
 - Cadastramento realizado no Mongo Atlas DB
 - Escolhido o Cluster FREE
 - Escolhido o Google Cloud Plataform
@@ -69,13 +73,34 @@ https://docs.atlas.mongodb.com/
 }
 
 - Executei vários adds no Postman executa um POST com estes dados (no Body, Tipo Json)
-
-
-
-
 - Utilizou o Visual Code Studio com as extensões: C# e C# Extensions
 
 # Testes executados (utilizando IDE Visual Studio 2019)
 
-## Teste: Incluir conta
-<img src="https://github.com/rdeconti/Projeto-DIO-.Net-Vaquinha-On-Line/blob/main/Teste-Incluir.jpg" />
+## Teste: Criação do cluster no MongoDB Atlas
+
+<img src="https://github.com/rdeconti/Projeto-DIO-.Net-API-MongoDB/blob/main/Tests-screens/MongoDB%20-%20Cria%C3%A7%C3%A3o%20do%20cluster.jpg" />
+
+## Teste: Criação do network ip address
+
+<img src="https://github.com/rdeconti/Projeto-DIO-.Net-API-MongoDB/blob/main/Tests-screens/MongoDB%20-%20Cria%C3%A7%C3%A3o%20do%20network%20IP%20address.jpg" />
+
+## Teste: Criação usuário read only
+
+<img src="https://github.com/rdeconti/Projeto-DIO-.Net-API-MongoDB/blob/main/Tests-screens/MongoDB%20-%20Cria%C3%A7%C3%A3o%20do%20usu%C3%A1rio%20read-olny.jpg" />
+
+## Teste: Utilizando Postman - retorno 500
+
+<img src="https://github.com/rdeconti/Projeto-DIO-.Net-API-MongoDB/blob/main/Tests-screens/Postman%20-%20retorno%20500.jpg" />
+
+## Teste: Utilizando Postman - retorno 201
+
+<img src="https://github.com/rdeconti/Projeto-DIO-.Net-API-MongoDB/blob/main/Tests-screens/Postman%20-%20retorno%20201.jpg" />
+
+## Teste: Registros incluidos visualizados no Chrome
+
+<img src="https://github.com/rdeconti/Projeto-DIO-.Net-API-MongoDB/blob/main/Tests-screens/Registros%20incluidos%20visualizados%20no%20Chrome.jpg" />
+
+## Teste: Registros incluidos visualizados no MongoDB Atlas
+
+<img src="https://github.com/rdeconti/Projeto-DIO-.Net-API-MongoDB/blob/main/Tests-screens/Registros%20incluidos%20visualizados%20no%20MongoDB%20Atlas.jpg" />
